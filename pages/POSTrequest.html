@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
     <script src="/js/POSTrequest.js" defer></script>
     <link rel="stylesheet" href="/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <a href="/index.html">Home</a>
+    </header>
+    <!-- label: in the For: put the ID of what it's for -->
+    <label for="userIDbox">User ID</label>
+    <input type="text" id="userIdBox">
+    <label for="postTitleBox">Post Title</label>
+    <input type="text" id="postTitleBox">
+    <label for="postBodyBox">Post Body</label>
+    <input type="text" id="postBodyBox">
+    <button id="submitPost">Submit</button>
+
+    <div>
+        <label for="usernameBox">Username</label>
+        <input type="text" id="usernameBox">
+        <label for="passwordBox">Password</label>
+        <input type="text" id="passwordBox">
+        <button id="loginButton">Log In</button>
+    </div>
 </body>
 </html>

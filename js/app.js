@@ -22,8 +22,6 @@ function dogSuccess(response){
 }
 
 
-
-
 // Stock photo API functions
 
 function getStockPhotos(){
