@@ -1,0 +1,17 @@
+WARMUP
+
+1. Create a folder called AxiosWarmup, connect to Git/GitHub
+2. Create an index.html and app.js, link them together
+3. Add the axios script tag to your index.html page
+4. Add a button into your HTML
+5. When that button is clicked:
+  5.1. Make an axios request to https://dog.ceo/api/breeds/image/random
+  5.2. If successful, insert the image onto the page
+  5.3. If not, show the user an error
+  5.4. I recommend putting your debugger breakpoints in the success and failure functions
+6. Add a second button onto the page
+7. When the button is clicked:
+  7.1. Make a request to https://picsum.photos/v2/list
+  7.2. On success, show the user every image that is returned by the API
+  7.3. On failure, show the user a failure message
+  7.4. I recommend putting your debugger breakpoints in the success and failure functions
